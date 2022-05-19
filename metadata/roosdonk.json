@@ -1,0 +1,19 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Windmill"
+    },
+    {
+      "trait_type": "Address",
+      "value": "Gerwenseweg 2, Nuenen"
+    },
+    {
+      "trait_type": "Built",
+      "value": "1884"
+    }
+  ],
+  "description": "Built 1884. Gerwenseweg 2, Nuenen. www.roosdonck.nl",
+  "image": "ipfs://QmbRqbDNh9XnaoUhkE7DaYwNtj5hauQ3MoEDsxGxj5kQSN",
+  "name": "Windmill 'De Roosdonck'"
+}

@@ -1,0 +1,19 @@
+{
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Windmill"
+    },
+    {
+      "trait_type": "Address",
+      "value": "Molenakker 3, Geldrop"
+    },
+    {
+      "trait_type": "Built",
+      "value": "1843"
+    }
+  ],
+  "description": "Built 1943. Molenakker 3, Geldrop. www.hetnupke.nl",
+  "image": "ipfs://QmfT1jyztic1rvz6mmFFYWeHSeX7raJDj4JjkUFexrRUaR",
+  "name": "Windmill '’t Nupke'"
+}
