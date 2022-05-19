@@ -1,15 +1,20 @@
-# Basic Sample Hardhat Project
+# Dutch Mills NFTs
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+## Deploy and mint NFTs with a collection of Dutch windmill/watermill photos
 
-Try running some of the following tasks:
+- Rename `template.secret.json` to `.secret.json` and put there your account mnemonic phrase. 
 
-```shell
-npx hardhat accounts
+- To compile the smart contract
+```bash
 npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+```
+- To deploy the s/c
+```bash
+npx hardhat deploy --network yourNetwork
+```
+see the available networks in `hardhat.config.js`
+
+- To mint new items modify `utils/mintNfts.js`. Add new CIDs to `newCIDsToMint` array. Then run
+```bash
+npx hardhat mint --network yourNetwork
 ```
