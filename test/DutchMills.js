@@ -1,4 +1,4 @@
-/* eslint-disable no-undef */
+/* global describe before it hre */
 const { expect } = require('chai');
 const { ethers } = require('hardhat');
 const { deployContracts } = require('../utils');

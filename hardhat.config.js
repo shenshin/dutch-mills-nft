@@ -1,4 +1,4 @@
-/* eslint-disable no-undef */
+/* global hre task */
 require('@nomiclabs/hardhat-waffle');
 const { join } = require('path');
 require('dotenv').config();

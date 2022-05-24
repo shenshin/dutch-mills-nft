@@ -1,4 +1,4 @@
-/* eslint-disable no-undef */
+/* global ethers */
 /**
  * Compares a transaction price with with deployer's balance and throws
  * an error if the deployer doesn't have enough money

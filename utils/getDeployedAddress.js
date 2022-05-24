@@ -1,4 +1,4 @@
-/* eslint-disable no-undef */
+/* global hre */
 const readDeployments = require('./readDeployments.js');
 
 /**

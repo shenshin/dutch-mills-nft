@@ -1,4 +1,4 @@
-/* eslint-disable no-undef */
+/* global hre */
 const fs = require('fs');
 
 /**

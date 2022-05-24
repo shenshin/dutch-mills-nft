@@ -1,4 +1,4 @@
-/* eslint-disable no-undef */
+/* global ethers */
 /**
  * Calculates a smart contract estimated deployment price
  * @param {string} contractName deploying smart contract name
