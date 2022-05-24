@@ -1,4 +1,3 @@
-/* global hre */
 const readDeployments = require('./readDeployments.js');
 
 /**

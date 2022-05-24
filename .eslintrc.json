@@ -18,5 +18,13 @@
       "import/no-extraneous-dependencies": "off",
       "no-console": "off",
       "import/extensions": "off"
+    },
+    "globals": {
+      "hre": "readonly",
+      "ethers": "readonly",
+      "describe":"readonly",
+      "before":"readonly",
+      "it": "readonly",
+      "task": "readonly"
     }
 }

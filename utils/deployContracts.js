@@ -1,4 +1,3 @@
-/* global ethers */
 /**
  * Deploys smart contract to the selected network
  * @returns object representing the deployed contract

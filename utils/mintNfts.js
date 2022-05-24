@@ -1,4 +1,3 @@
-/* global ethers */
 const getDeployedAddress = require('./getDeployedAddress.js');
 const promptTxPrice = require('./promptTxPrice.js');
 const checkDeployerBalance = require('./checkDeployerBalance.js');

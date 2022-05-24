@@ -1,4 +1,3 @@
-/* global ethers hre */
 const { prompt } = require('inquirer');
 const getCryptoPrice = require('./getCryptoPrice.js');
 

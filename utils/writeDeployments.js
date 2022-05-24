@@ -1,4 +1,3 @@
-/* global hre */
 const fs = require('fs');
 const readDeployments = require('./readDeployments.js');
 
