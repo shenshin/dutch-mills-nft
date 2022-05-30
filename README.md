@@ -4,6 +4,10 @@
 
 - Rename `template.secret.json` to `.secret.json` and put there your account mnemonic phrase. 
 
+- Install dependencies
+```bash
+npm install
+```
 - To compile the smart contract
 ```bash
 npx hardhat compile
@@ -14,7 +18,7 @@ npx hardhat deploy --network yourNetwork
 ```
 see the available networks in `hardhat.config.js`
 
-- To mint new items modify `utils/mintNfts.js`. Add new CIDs to `newCIDsToMint` array. Then run
+- To mint new items modify `hardhat.config.js`. Add new CIDs to `newCIDsToMint` array. Then run
 ```bash
 npx hardhat mint --network yourNetwork
 ```

@@ -11,6 +11,11 @@ const {
   checkDeployerBalance,
 } = require('./utils');
 
+const newCIDsToMint = [
+  'Qme3QxqsJih5psasse4d2FFLFLwaKx7wHXW3Topk3Q8b14',
+  'QmY6KX35Rg25rnaffmZzGUFb3raRhtPA5JEFeSSWQA4GHL',
+];
+
 task('deploy', 'Deploys smart contract to a blockchain', async () => {
   try {
     const deploymentPrice = await getDeploymentPrice('DutchMills');
@@ -43,6 +48,7 @@ const constants = {
 };
 
 module.exports = {
+  newCIDsToMint,
   deploymentFile: join(__dirname, 'deployments.json'),
   solidity: '0.8.12',
   settings: {
